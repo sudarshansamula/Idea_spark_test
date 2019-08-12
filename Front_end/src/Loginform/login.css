@@ -1,0 +1,175 @@
+/* Common Styles */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ffffff !important;
+	color: #000000;
+}
+
+/*  Login CSS */
+
+.login-container{
+	/* max-width: 470px; */
+	margin: 100px auto 20px; 
+}
+.login-container .login-logo {
+    text-align: center;
+    margin: 20px auto;
+	width: 100%;
+}
+.login-container .login-logo img {
+    display: inline-block;
+}
+/* .login-container .login-context{
+	background : #E9E9E9;
+	width: 100%;
+	padding: 10px;
+} */
+.login-container .login-heading{
+	background: #F36533;
+	color: #ffffff;
+	font-size : 18px;
+	padding : 15px;
+	text-align : center;
+	text-transform : uppercase;
+	font-weight : bold
+}
+.login-container .login-content{
+	background: #ffffff;
+	color: #000000;
+	padding : 5px 20px;
+}
+.login-container .login-content label{
+	font-weight: normal;
+}
+.login-container .login-btn .btn-default {
+	background: #F36633;
+	color: #ffffff;
+	margin-top: 10px;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 18px;
+}
+.login-container .forgot-pass{
+	margin: 20px 0;
+    text-align: right;
+	font-weight: bold;
+}
+.login-container .forgot-content{
+	padding: 75px 20px;
+}
+.forgot-submit{
+	text-align : center;
+}
+.login-container .login-btn.forgot-submit .btn-default{
+	width : 50%
+}
+
+.display-text h1 {
+    font-size: 25px !important;
+}
+
+form {
+    padding-top: 25px;
+}
+
+.signin {
+    width: 400px !important;
+}
+
+.modal-body {
+	text-align: center;
+}
+
+.Page-Loader {
+	background: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 0 -15px;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	
+}
+.Page-Loader .loader {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	top: 45%;
+	margin: 0 auto;
+	left: 42%;
+	right: 42%;
+  }
+
+  .login-container .login-content label {
+    font-weight: bold;
+}
+
+.forgot-password-container .forgot-password-content label {
+    font-weight: bold !important;
+}
+.create-account .sc-kAzzGY.gSaiJU {
+    width: 31%;
+}
+.container {
+	padding: 16px;
+}
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+  }
+img.avatar {
+	width: 20%;
+	border-radius: 50%;
+  }
+.modal {
+	display: block; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 60px;
+}
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+  input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
